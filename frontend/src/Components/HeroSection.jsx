@@ -24,10 +24,12 @@ const HeroSection = () => {
             className="mt-4 text-xs sm:text-sm md:text-base lg:text-lg text-gray-300 px-2 sm:px-4"
             transition={{ duration: 0.3 }}
           >
-            We design <strong>intuitive, conversion-focused web experiences</strong> that your
-            users will love to navigate. By blending data-driven UX strategy with pixel-perfect
-            UI design, we build interfaces that reduce bounce rates, drive engagement, and turn
-            visitors into loyal customers.
+            We design{" "}
+            <strong>intuitive, conversion-focused web experiences</strong> that
+            your users will love to navigate. By blending data-driven UX
+            strategy with pixel-perfect UI design, we build interfaces that
+            reduce bounce rates, drive engagement, and turn visitors into loyal
+            customers.
           </motion.p>
 
           <Link to="/Contact">
