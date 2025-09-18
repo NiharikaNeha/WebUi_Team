@@ -188,7 +188,30 @@ import React from 'react'
 
 const ContactSection = () => {
   return (
-    <div></div>
+    <div id='contact' className='py-20 bg-white'>
+      <div className='container mx-auto px-6'>
+        <div className='text-center mb-12'>
+          <h1 className='text-3xl text-dark font-bold mb-4'>Let's Talk</h1>
+          <div className='w-20 h-1 bg-primary mx-auto mb-4'></div>
+          <p className='text-grey-700'>We'd Love To Work For You</p>
+        </div>
+
+<div className='flex flex-col md:flex-row items-center justify-between'>
+  {/* Left Container */}
+  <div className='md:w-1/2'>
+  <div className='w-full overflow-hidden p-8'>
+    <h1>Get In Touch</h1>
+    <div>
+      <div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+      </div>
+    </div>
   )
 }
 
