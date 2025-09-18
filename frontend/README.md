@@ -16,3 +16,4 @@ Date 18/09/2025
 changes in 
 <Gallery/>
 <Footer/>
+<Contact/>
