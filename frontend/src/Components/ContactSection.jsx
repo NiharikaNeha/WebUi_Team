@@ -46,7 +46,7 @@ const ContactSection = () => {
   const handleSendEmail = () => {
     if (form.name && form.email && form.message) {
       const subject = "New Contact Form Message";
-      const body = `Hello, my name is ${form.name}. My email is ${form.email}. Message: ${form.message}`;
+      const body = `Hello, my name is ${form.name}. My email is ${form.email}. ${form.message}`;
       window.location.href = `mailto:webuisolution@gmail.com?subject=${encodeURIComponent(
         subject
       )}&body=${encodeURIComponent(body)}`;
