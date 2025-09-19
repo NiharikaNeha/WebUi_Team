@@ -16,3 +16,8 @@ p{
   font-family: Merriweather, serif;
 font-style: italic;
 }
+
+/* Active bullet */
+.swiper-pagination-bullet-active {
+  background-color: black !important;
+}
