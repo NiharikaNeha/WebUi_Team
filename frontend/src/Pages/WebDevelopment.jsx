@@ -87,9 +87,8 @@ export default function WebDevelopment() {
         {/* Back button */}
         <div className="text-center mt-12">
           <Link
-            to="/"
-            className="px-6 py-3 rounded-xl bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 
-            hover:opacity-90 transition font-semibold shadow-lg"
+            to="/services"
+            className="px-6 py-3 rounded-xl bg-black text-white hover:opacity-90 transition font-semibold shadow-lg"
           >
             ⬅ Back to Services
           </Link>

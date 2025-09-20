@@ -26,9 +26,9 @@ export default function FigmaDesigns() {
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <motion.h2
-          className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-center mb-16 
-          bg-gradient-to-r from-pink-500 via-purple-400 to-blue-500 
-          bg-clip-text text-transparent drop-shadow-[0_0_25px_#a855f7]"
+          className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-center mb-12 pt-4 leading-snug
+  bg-gray-900 
+  bg-clip-text text-transparent drop-shadow-[0_0_25px_#fff]"
           initial={{ opacity: 0, y: -40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -63,9 +63,8 @@ export default function FigmaDesigns() {
         {/* Back button */}
         <div className="text-center mt-16">
           <Link
-            to="/"
-            className="px-6 py-3 rounded-xl bg-gradient-to-r from-pink-500 via-purple-500 to-blue-600 
-            hover:opacity-90 transition font-semibold shadow-lg"
+            to="/services"
+            className="px-6 py-3 rounded-xl bg-black text-white hover:opacity-90 transition font-semibold shadow-lg"
           >
             ⬅ Back to Services
           </Link>

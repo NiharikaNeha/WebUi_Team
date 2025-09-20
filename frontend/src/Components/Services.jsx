@@ -40,7 +40,7 @@ export default function Services() {
       title: "UI/UX",
       desc: "We design intuitive and visually appealing interfaces for an exceptional user experience.",
       icon: <Stars size={44} className="text-pink-600" />,
-      action: () => setShowFigma(true),
+      action: () => (window.location.href = "/ui-ux"),
     },
     {
       id: "cloud-deployment",
