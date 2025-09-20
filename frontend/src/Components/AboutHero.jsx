@@ -40,14 +40,14 @@ export default function AboutHero() {
             WebUi transforms business visions into powerful digital experiences. 
             Founded by passionate developers who understand the startup journey, 
             we specialize in creating responsive, high-performance websites using 
-            modern technologies like <span className="text-indigo-400 font-semibold">React, Next.js,</span> 
-            and <span className="text-indigo-400 font-semibold">Tailwind CSS</span>.
+            modern technologies like React, Next.js,
+            and Tailwind CSS.
           </motion.p>
 
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="px-6 sm:px-8 py-3 bg-indigo-600 hover:bg-indigo-500 rounded-xl font-semibold transition text-sm sm:text-base"
+            className="px-6 sm:px-8 py-3 bg-white text-black hover:bg-gray-200 rounded-xl font-semibold transition text-sm sm:text-base"
           >
             Learn More
           </motion.button>
