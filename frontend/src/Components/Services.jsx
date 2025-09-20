@@ -68,7 +68,9 @@ export default function Services() {
         transition={{ duration: 0.8 }}
       >
         Our Services
-      </motion.h2>
+        </motion.h2>
+
+        <img src="/OUR SERVICES[1].jpg" alt="" />
 
       {/* Services Grid */}
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-6">
