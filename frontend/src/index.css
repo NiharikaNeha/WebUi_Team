@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 
 
 h1{
@@ -15,9 +16,4 @@ h2{
 p{
   font-family: Merriweather, serif;
 font-style: italic;
-}
-
-/* Active bullet */
-.swiper-pagination-bullet-active {
-  background-color: black !important;
 }
