@@ -73,7 +73,7 @@ export default function FigmaDesigns() {
         {/* Back button */}
         <div className="text-center mt-16">
           <Link
-            to="/"
+            to="/services"
             className="px-6 py-3 rounded-lg bg-black text-white font-semibold shadow hover:bg-gray-800 transition"
           >
             ⬅ Back to Services
