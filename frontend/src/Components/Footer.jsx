@@ -85,7 +85,7 @@ const Footer = () => {
                 Bhubaneswar, Odisha, <br />
                 India
               </li>
-              <li>+91 77520 67196</li>
+              <li>+91 90658 95424</li>
               <li>webuisolution@gmail.com</li>
             </ul>
           </motion.div>
