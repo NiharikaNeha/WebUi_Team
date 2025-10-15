@@ -18,7 +18,7 @@ export default function JoinUs() {
           <p className="text-sm sm:text-base md:text-lg text-gray-600 mb-5 sm:mb-6">
             "Together, we build the future of innovation and technology."
           </p>
-          <Link to="/gallery">
+          <Link to="/services">
             <button className="w-full sm:w-auto px-5 sm:px-6 py-2.5 sm:py-3 bg-black text-white font-semibold rounded-lg shadow-md transition hover:bg-gray-800">
               Our Works
             </button>
