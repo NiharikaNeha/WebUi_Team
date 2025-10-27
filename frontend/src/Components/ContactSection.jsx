@@ -108,7 +108,7 @@ const ContactSection = () => {
               {
                 icon: <FaPhoneAlt />,
                 title: "Phone",
-                value: "+91 90658 95424, +91 62996 16299",
+                value: "+91 77520 67196, +91 62996 16299",
               },
               {
                 icon: <IoIosMail />,
